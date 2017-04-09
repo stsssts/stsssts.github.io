@@ -1,1 +1,33 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Marta</title>
+        <style>
+         html, body {
+             height: 100%;
+             margin: 0;
+             padding: 0;
+         }
+         /* The animation code */
+         @keyframes marta {
+             50% {color: red;}
+         }
+
+         /* The element to apply the animation to */
+         div {
+             color: pink;
+             font-family: sans-serif;
+             animation-name: marta;
+             animation-duration: 2s;
+             animation-iteration-count: infinite;
+             animation-timing-function: ease-in-out;
+         }
+        </style>
+    </head>
+    <body>
+        <div id="marta" style="display:flex;justify-content:center;align-items:center;font-size:200%;height:100%">
+            МАРТА НЕ ГРУСТИ!
+        </div>
+    </body>
+</html>
